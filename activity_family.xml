@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<TextView
+    android:layout_width="match_parent"
+    android:id="@+id/miwok_text_view"
+    tools:text="lutti"
+    android:layout_height="match_parent" />
+
+
+<TextView
+    android:layout_width="match_parent"
+    tools:text="one"
+    android:id="@+id/default_text_view"
+    android:layout_height="wrap_content" />
+<TextView
+    android:layout_width="match_parent"
+    android:id="@+id/miwok_text_view2"
+    tools:text="otiiko"
+    android:layout_height="wrap_content" />
+
+
+<TextView
+    android:layout_width="match_parent"
+    tools:text="two"
+    android:id="@+id/default_text_view2"
+    android:layout_height="wrap_content" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:id="@+id/miwok_text_view3"
+    tools:text="tolookosu"
+    android:layout_height="wrap_content" />
+
+
+<TextView
+    android:layout_width="match_parent"
+    tools:text="three"
+    android:id="@+id/default_text_view3"
+    android:layout_height="wrap_content" />
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:id="@+id/miwok_text_view4"
+    tools:text="oyyisa"
+    android:layout_height="wrap_content" />
+
+
+<TextView
+    android:layout_width="match_parent"
+    tools:text="four"
+    android:id="@+id/default_text_view4"
+    android:layout_height="wrap_content" />
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:id="@+id/miwok_text_view5"
+    tools:text="massokka"
+    android:layout_height="wrap_content" />
+
+
+<TextView
+    android:layout_width="match_parent"
+    tools:text="five"
+    android:id="@+id/default_text_view5"
+    android:layout_height="wrap_content" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:id="@+id/miwok_text_view6"
+    tools:text="temmokka"
+    android:layout_height="wrap_content" />
+
+
+<TextView
+    android:layout_width="match_parent"
+    tools:text="six"
+    android:id="@+id/default_text_view6"
+    android:layout_height="wrap_content" />
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:id="@+id/miwok_text_view7"
+    tools:text="kenekaku"
+    android:layout_height="wrap_content" />
+
+
+<TextView
+    android:layout_width="match_parent"
+    tools:text="seven"
+    android:id="@+id/default_text_view7"
+    android:layout_height="wrap_content" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:id="@+id/miwok_text_view8"
+    tools:text="kawinta"
+    android:layout_height="wrap_content" />
+
+
+<TextView
+    android:layout_width="match_parent"
+    tools:text="eight"
+    android:id="@+id/default_text_view8"
+    android:layout_height="wrap_content" />
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:id="@+id/miwok_text_view9"
+    tools:text="wo'e"
+    android:layout_height="wrap_content" />
+
+
+<TextView
+    android:layout_width="match_parent"
+    tools:text="nine"
+    android:id="@+id/default_text_view9"
+    android:layout_height="wrap_content" />
+
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:id="@+id/miwok_text_view10"
+    tools:text="na'aacha"
+    android:layout_height="wrap_content" />
+
+
+<TextView
+    android:layout_width="match_parent"
+    tools:text="ten"
+    android:id="@+id/default_text_view10"
+    android:layout_height="wrap_content" />
+
+
+</LinearLayout>
+
