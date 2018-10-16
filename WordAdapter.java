@@ -13,7 +13,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 public class WordAdapter extends ArrayAdapter<Word> {
-    public WordAdapter(Activity context, ArrayList<Word> words) {
+    public WordAdapter(Activity context, ArrayList <Word> words, int category_numbers) {
         // Here, we initialize the ArrayAdapter's internal storage for the context and the list.
         // the second argument is used when the ArrayAdapter is populating a single TextView.
         // Because this is a custom adapter for two TextViews and an ImageView, the adapter is not
@@ -44,8 +44,19 @@ public class WordAdapter extends ArrayAdapter<Word> {
                 // set this text on the number TextView
                 DefaultTextView.setText(currentword.getDefaultTranslation());
 
+    ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
+    // Set the ImageView to the image resource specified in the current Word
+//    if (currentword.hasimage()) {
+//
+//
+//        imageView.setImageResource(currentword.getImageResourceId());
+//    }
+////      set the image view to the iage resoruce specified in the current word
+//
+//    else {imageView.setImageResource(View.GONE);
+//    }
 
-                // Return the whole list item layout (containing 2 TextViews and an ImageView)
+    // Return the whole list item layout (containing 2 TextViews and an ImageView)
                 // so that it can be shown in the ListView
                 return listItemView;
             }

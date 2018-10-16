@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
+<ImageView
+    android:layout_width="wrap_content"
+    android:id="@+id/image"
+    android:layout_height="wrap_content"
+    android:src="@mipmap/ic_launcher"
+
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:id="@+id/text_container"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="79dp">
+
+
+
 
     <TextView
         android:layout_width="match_parent"
         android:id="@+id/miwok_text_view"
         tools:text="lutti"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content" />
 
 
     <TextView
@@ -16,248 +34,21 @@
         tools:text="one"
         android:id="@+id/default_text_view"
         android:layout_height="wrap_content" />
-    <TextView
-        android:layout_width="match_parent"
-        android:id="@+id/miwok_text_view2"
-        tools:text="otiiko"
-        android:layout_height="wrap_content" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        tools:text="two"
-        android:id="@+id/default_text_view2"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:id="@+id/miwok_text_view3"
-        tools:text="tolookosu"
-        android:layout_height="wrap_content" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        tools:text="three"
-        android:id="@+id/default_text_view3"
-        android:layout_height="wrap_content" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        android:id="@+id/miwok_text_view4"
-        tools:text="oyyisa"
-        android:layout_height="wrap_content" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        tools:text="four"
-        android:id="@+id/default_text_view4"
-        android:layout_height="wrap_content" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        android:id="@+id/miwok_text_view5"
-        tools:text="massokka"
-        android:layout_height="wrap_content" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        tools:text="five"
-        android:id="@+id/default_text_view5"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:id="@+id/miwok_text_view6"
-        tools:text="temmokka"
-        android:layout_height="wrap_content" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        tools:text="six"
-        android:id="@+id/default_text_view6"
-        android:layout_height="wrap_content" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        android:id="@+id/miwok_text_view7"
-        tools:text="kenekaku"
-        android:layout_height="wrap_content" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        tools:text="seven"
-        android:id="@+id/default_text_view7"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:id="@+id/miwok_text_view8"
-        tools:text="kawinta"
-        android:layout_height="wrap_content" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        tools:text="eight"
-        android:id="@+id/default_text_view8"
-        android:layout_height="wrap_content" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        android:id="@+id/miwok_text_view9"
-        tools:text="wo'e"
-        android:layout_height="wrap_content" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        tools:text="nine"
-        android:id="@+id/default_text_view9"
-        android:layout_height="wrap_content" />
-
-
-
-    <TextView
-        android:layout_width="match_parent"
-        android:id="@+id/miwok_text_view10"
-        tools:text="na'aacha"
-        android:layout_height="wrap_content" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        tools:text="ten"
-        android:id="@+id/default_text_view10"
-        android:layout_height="wrap_content" />
-
-<!--family names start here-->
-
-    <TextView
-        android:layout_width="match_parent"
-        android:id="@+id/әpә"
-        tools:text="әpә"
-        android:layout_height="match_parent" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        tools:text="father"
-        android:id="@+id/father"
-        android:layout_height="wrap_content" />
-    <TextView
-        android:layout_width="match_parent"
-
-        tools:text="otiiko"
-        android:layout_height="wrap_content" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        tools:text="two"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:layout_width="match_parent"
-        tools:text="tolookosu"
-        android:layout_height="wrap_content" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        tools:text="three"
-        android:layout_height="wrap_content" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        tools:text="oyyisa"
-        android:layout_height="wrap_content" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        tools:text="four"
-        android:layout_height="wrap_content" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        tools:text="massokka"
-        android:layout_height="wrap_content" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        tools:text="five"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:layout_width="match_parent"
-        tools:text="temmokka"
-        android:layout_height="wrap_content" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        tools:text="six"
-        android:layout_height="wrap_content" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        tools:text="kenekaku"
-        android:layout_height="wrap_content" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        tools:text="seven"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:layout_width="match_parent"
-        tools:text="kawinta"
-        android:layout_height="wrap_content" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        tools:text="eight"
-        android:layout_height="wrap_content" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        tools:text="wo'e"
-        android:layout_height="wrap_content" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        tools:text="nine"
-        android:layout_height="wrap_content" />
-
-
-
-    <TextView
-        android:layout_width="match_parent"
-        tools:text="na'aacha"
-        android:layout_height="wrap_content" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        tools:text="ten"
-        android:layout_height="wrap_content" />
-
-
 </LinearLayout>
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+         android:src="@drawable/play"/>
+
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      />
+
+
+</RelativeLayout>
